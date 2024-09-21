@@ -1,4 +1,4 @@
-# lda_topic.ipynb の使い方(Mac)
+# lda_topic.ipynb の使い方(Mac) & 夏目漱石の"吾輩は猫である"の本文のテキストファイル
 homebrewをinstallしている前提での説明と実行するコマンド
 
 環境作成
