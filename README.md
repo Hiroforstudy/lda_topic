@@ -1,4 +1,4 @@
-# lda_topic.ipynb
+# lda_topic.ipynb japanese version (日本語対応)
 ![lda_image](./images/lda_example.png)
 ## Description and commands to execute under the assumption that homebrew has been installed.
 - Steps to create a environment
