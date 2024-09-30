@@ -1,4 +1,5 @@
 # lda_topic.ipynb
+![lda_image](./images/lda_example.png)
 ## Description and commands to execute under the assumption that homebrew has been installed.
 - Steps to create a environment
 ```
