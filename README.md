@@ -1,43 +1,42 @@
-# lda_topic.ipynb の使い方(Mac)
-text.txtは夏目漱石の"吾輩は猫である"の本文のテキストファイル
-
-------------------------------------------------
-homebrewをinstallしている前提での説明と実行するコマンド
-
-環境作成
-
+# lda_topic.ipynb
+## Description and commands to execute under the assumption that homebrew has been installed.
+- Steps to create a environment
+```
 conda create --name myenv python=3.10
-
-
-仮想環境のアクティベイト
-
+```
+- Activate Virtual Environment
+```
 conda activate myenv
-
-
-ジュビターラボをインストール
-
+```
+- Install JubiterLab
+```
 conda install jupyterlab
-
-
-ジュピターラボを起動
-
+```
+- Activate Jupiter Labs
+```
 jupyter lab
-
-
-インストールするべきパッケージ
-
+```
+---
+# Packages to install
+```
 conda install numpy scipy scikit-learn matplotlib h5py pillow tensorflow -y
-
-
-pipでインストールするパッケージ一覧
-
+```
+---
+# List of packages to install with pip
+```
 pip install pyLDAvis
-
+```
+```
 pip install nltk
-
+```
+```
 pip install mecab-python3
-
-
-必要があれば
-
+```
+---
+if necessary
+```
 pip install pyparsing
+```
+text.txt is a text file of the text of “I am a cat” by Soseki Natsume
+---
+text.txtは夏目漱石の"吾輩は猫である"の本文のテキストファイル
